@@ -1,0 +1,1 @@
+{"description":"M4ster Tracker desktop — native Windows + macOS via Tauri","devDependencies":{"@tauri-apps/cli":"^2.0.0"},"name":"m4ster-tracker-desktop","scripts":{"build":"npm run sync-frontend","dev":"npm run sync-frontend && npx tauri dev","sync-frontend":"bash scripts/sync-frontend.sh","tauri":"tauri"},"type":"module","version":"0.1.0"}
