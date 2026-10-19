@@ -1,8 +1,8 @@
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
+use tauri::{Emitter, Manager};
 use tauri_plugin_deep_link::DeepLinkExt;
-use tauri_plugin_single_instance::SingleInstanceExt;
 use url::Url;
 
 /// Handle `m4ster-tracker://` deep links.
